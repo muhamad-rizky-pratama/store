@@ -5,7 +5,7 @@
 }
 
 .kategori{
-    width: 10rem;
+    width: 5rem;
     border-radius: 100%;
     height: 70%;
     margin-top: 8px;
@@ -37,6 +37,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     margin: 20px;
+    margin-top: 100px;
 }
 .iklan img{
     width: 100%;
@@ -68,5 +69,21 @@
             background-position: right center; /* change the direction of the change here */
             color: #fff;
             text-decoration: none;
+          }
+
+          ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            color: white;
+          }
+          nav{
+            background-color: black;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+          }
+          body{
+            margin: 0;
           }
          
